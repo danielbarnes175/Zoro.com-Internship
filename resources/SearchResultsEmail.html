@@ -1,0 +1,49 @@
+{{> EmailHead }}
+{{> EmailHeader }}
+<body>
+  <div
+    style="margin-top: 5px;border-top: 5px solid #0b485b;border-bottom:5px solid #0b485b;background: #cccccc"
+  >
+    <center>
+      <h2>Zoro Search Results</h2>
+      <a href='/* removed */{{ queryString }}'>
+        <button style="text-decoration: none !important;align-items: center;justify-content: center;padding: 10px 15px;border-radius: 4px;font-weight: 700;border-color: #0b485b;background: #0b485b;color: #fff;background-clip: padding-box;">
+          View Search Results
+        </button>
+      </a>
+    </center>
+    <br>
+    <br>
+    <center>
+      <div>
+        {{#each items}}
+        <a href="/* removed */">
+          <div class="div-custom">
+            <center>
+              <p class="p-custom">
+                <b>{{{ itemTitle }}}</b>
+                <br>
+                {{{ itemBrand }}}
+              </p>
+              <img 
+                src="/* removed */"
+                alt="Product Image"
+                title="Product Image"
+                class="img-custom"
+              />
+              <br>
+              <center>
+                <b>
+                  ${{ itemPrice }}
+                </b>
+              </center>
+            </center>
+          </div>
+        </a>
+        {{/each}}
+      </table>
+    </div>
+  </center>
+</div>
+</body>
+{{> EmailFooter }}

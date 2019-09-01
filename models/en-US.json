@@ -1,0 +1,1156 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "zoro",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "What can I do",
+                        "what are my options",
+                        "help",
+                        "zoro help",
+                        "zoro information",
+                        "what does the skill do",
+                        "what is the skill",
+                        "what is the app",
+                        "what can zoro do",
+                        "what can zoro dot com do",
+                        "what can the app do",
+                        "how to use zoro",
+                        "how to use this skill",
+                        "what can I do on zoro",
+                        "what can I do with this skill"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SearchItemIntent",
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "Find me {item}",
+                                "I'm looking for {item}",
+                                "Search for {item}",
+                                "{item}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "I need {item}",
+                        "I want {item}",
+                        "I want to check {item}",
+                        "I want to check for {item}",
+                        "check {item}",
+                        "check for {item}",
+                        "help find {item}",
+                        "help me find {item}",
+                        "I want to search for {item}",
+                        "I want to look for {item}",
+                        "look for {item}",
+                        "I want to find some {item}",
+                        "I want some {item}",
+                        "find me some {item}",
+                        "find some {item}",
+                        "I want to find zoro {item}",
+                        "I want to find {item}",
+                        "I want zoro {item}",
+                        "for {item}",
+                        "search zoro",
+                        "find",
+                        "search",
+                        "find {item}",
+                        "find me {item}",
+                        "get me {item} zoro",
+                        "I want {item} zoro",
+                        "search for {item}",
+                        "can you search for {item}",
+                        "can you help me search for {item}",
+                        "can you find {item}",
+                        "can you help me find {item}",
+                        "do you have {item}",
+                        "do you have any {item}",
+                        "search for item number {item}",
+                        "search for part number {item}",
+                        "search for manufacturer number {item}",
+                        "search for zoro number {item}",
+                        "find item number {item}",
+                        "find part number {item}",
+                        "find manufacturer number {item}",
+                        "find zoro number {item}"
+                    ]
+                },
+                {
+                    "name": "SendAppIntent",
+                    "slots": [],
+                    "samples": [
+                        "app please",
+                        "my app",
+                        "the application",
+                        "the app",
+                        "send to the amazon application",
+                        "send to the alexa application",
+                        "send to the amazon app",
+                        "send to the alexa app",
+                        "send to the application",
+                        "send to application",
+                        "send to my amazon app",
+                        "send to my alexa application",
+                        "send to my application",
+                        "alexa application",
+                        "amazon application",
+                        "send application",
+                        "send app",
+                        "amazon app",
+                        "alexa app",
+                        "send to my app",
+                        "app",
+                        "send to the app",
+                        "send via app",
+                        "my alexa app",
+                        "the alexa app"
+                    ]
+                },
+                {
+                    "name": "SendEmailIntent",
+                    "slots": [],
+                    "samples": [
+                        "send the results to my email",
+                        "send the search results to my email",
+                        "send results to email",
+                        "electronic mail",
+                        "send me an email",
+                        "send an email",
+                        "my email",
+                        "send to my email",
+                        "email",
+                        "send to email",
+                        "send via email",
+                        "send to my mailbox",
+                        "send email",
+                        "send me email",
+                        "email me",
+                        "email results",
+                        "email search results",
+                        "email me the search results",
+                        "email me that search result",
+                        "send me an email of search results",
+                        "send me email with search results",
+                        "send me the results in email",
+                        "get an email of the search results",
+                        "can you send me an email",
+                        "can you send me an email of the search results",
+                        "can you send me an email of the results",
+                        "can I get an email",
+                        "can I get an email of search results",
+                        "can I get those results in email"
+                    ]
+                },
+                {
+                    "name": "SendTextIntent",
+                    "slots": [],
+                    "samples": [
+                        "text",
+                        "send me a text",
+                        "send text",
+                        "send a text",
+                        "send a message",
+                        "send message",
+                        "send via SMS",
+                        "message",
+                        "send to my messages",
+                        "send via message"
+                    ]
+                },
+                {
+                    "name": "MoreInformationIntent",
+                    "slots": [],
+                    "samples": [
+                        "more details",
+                        "I want details",
+                        "details",
+                        "more",
+                        "info",
+                        "information",
+                        "I want more info",
+                        "I want more information",
+                        "give me more info",
+                        "more info",
+                        "more information",
+                        "give me more information",
+                        "learn more about the search results",
+                        "I would like to learn about the results",
+                        "more information on the search results",
+                        "more info on the search results",
+                        "can I have more information",
+                        "can I get more information",
+                        "what are the search results",
+                        "tell me about the search results",
+                        "tell me the results",
+                        "tell me the search results",
+                        "present results",
+                        "present the search results",
+                        "present me the results"
+                    ]
+                },
+                {
+                    "name": "SendResultsIntent",
+                    "slots": [],
+                    "samples": [
+                        "the results",
+                        "the result",
+                        "I want the results",
+                        "I want the result",
+                        "result",
+                        "I want results",
+                        "results",
+                        "send me results",
+                        "send results"
+                    ]
+                },
+                {
+                    "name": "ItemInfoIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "{number} "
+                            ]
+                        },
+                        {
+                            "name": "ordinal",
+                            "type": "AMAZON.Ordinal",
+                            "samples": [
+                                "{ordinal}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "more information {ordinal}",
+                        "more information on the {ordinal} one",
+                        "more information on the {ordinal}",
+                        "more information on {number}",
+                        "more information {number}",
+                        "{ordinal} number",
+                        "the {ordinal}",
+                        "tell me about {ordinal} one",
+                        "tell me about the {ordinal} one",
+                        "more on {ordinal} one",
+                        "more on the {ordinal} one",
+                        "the {ordinal} result",
+                        "{ordinal} result",
+                        "{ordinal} product",
+                        "the {ordinal} product",
+                        "the {ordinal} item",
+                        "{ordinal} item",
+                        "{ordinal} one",
+                        "{ordinal} option",
+                        "the {ordinal} one",
+                        "number {number}",
+                        "option {number}",
+                        "I want more on number {number}",
+                        "more on number {number}",
+                        "tell me about {number}",
+                        "I want more on {number}",
+                        "more on {number}",
+                        "info on {number}",
+                        "info on number {number}",
+                        "info on item {number}",
+                        "info on {ordinal}",
+                        "info on the {ordinal}",
+                        "information of {number}",
+                        "information of number {number}",
+                        "information of item {number}",
+                        "information of {ordinal}",
+                        "information of the {ordinal}",
+                        "details of {number}",
+                        "details of number {number}",
+                        "details of item {number}",
+                        "details of {ordinal}",
+                        "details of the {ordinal}",
+                        "tell me about number {number}",
+                        "tell me more about number {number}",
+                        "describe number {number}",
+                        "describe the {ordinal}",
+                        "describe the {ordinal} one",
+                        "describe the {ordinal} item",
+                        "item {number} information",
+                        "number {number} information",
+                        "the {ordinal} one's information",
+                        "price and availability of item {number}",
+                        "price and availability of number {number}",
+                        "price and availability of {number}",
+                        "price and availability of the {ordinal}",
+                        "price and availability of {ordinal}",
+                        "price and description of item {number}",
+                        "price and description of number {number}",
+                        "price and description of {number}",
+                        "price and description of the {ordinal}",
+                        "price and description of {ordinal}",
+                        "availability and description of item {number}",
+                        "availability and description of number {number}",
+                        "availability and description of {number}",
+                        "availability and description of the {ordinal}",
+                        "availability and description of {ordinal}",
+                        "features of {number}",
+                        "features of number {number}",
+                        "features of item {number}",
+                        "features of {ordinal}",
+                        "features of the {ordinal}",
+                        "description of {number}",
+                        "description of number {number}",
+                        "description of item {number}",
+                        "description of {ordinal}",
+                        "description of the {ordinal}",
+                        "find the information of {number}",
+                        "find the information of {ordinal}",
+                        "find the info of {number}",
+                        "find the info of {ordinal}",
+                        "find the description of {number}",
+                        "find the description of {ordinal}"
+                    ]
+                },
+                {
+                    "name": "PriceInfoIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "{number}"
+                            ]
+                        },
+                        {
+                            "name": "ordinal",
+                            "type": "AMAZON.Ordinal",
+                            "samples": [
+                                "{ordinal}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{ordinal} price",
+                        "cost of the {ordinal} one",
+                        "cost of {ordinal} result",
+                        "{ordinal} cost",
+                        "cost {ordinal}",
+                        "cost of {ordinal} one",
+                        "cost of {ordinal}",
+                        "price of {ordinal} result",
+                        "price of the {ordinal} result",
+                        "price of {ordinal} product",
+                        "price of the {ordinal} product",
+                        "price of {ordinal} item",
+                        "price of the {ordinal} item",
+                        "price of {ordinal} one",
+                        "price of the {ordinal} one",
+                        "price on number {number}",
+                        "price on item {number}",
+                        "price on the {ordinal} one",
+                        "price on the {ordinal}",
+                        "what's the price of number {number}",
+                        "what's the price of item {number}",
+                        "what's the price of {number}",
+                        "what's the price of {ordinal}",
+                        "what's the price of the {ordinal}",
+                        "what's the price on number {number}",
+                        "what's the price on item {number}",
+                        "what's the price on {number}",
+                        "what's the price on {ordinal}",
+                        "what's the price on the {ordinal}",
+                        "{number} cost",
+                        "cost of {number}",
+                        "price of {number}",
+                        "{number} price",
+                        "whats the price of {number}",
+                        "price on {number}",
+                        "how much is the {ordinal}",
+                        "how much is item {number}",
+                        "how much is number {number}",
+                        "how much does number {number} cost",
+                        "how much does item {number} cost",
+                        "how much does the {ordinal} one cost",
+                        "how much does the {ordinal} cost",
+                        "find the price of {number}",
+                        "find the price of {ordinal}",
+                        "{ordinal} one's price",
+                        "{ordinal} product's price",
+                        "{ordinal} item's price"
+                    ]
+                },
+                {
+                    "name": "AddCartItemIntent",
+                    "slots": [
+                        {
+                            "name": "itemOrder",
+                            "type": "AMAZON.Ordinal"
+                        },
+                        {
+                            "name": "itemQty",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "itemNum",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "add {itemQty} of product {itemNum} to my shopping cart",
+                        "add {itemQty} of product {itemNum} to my shopping list",
+                        "add {itemQty} of product {itemNum} to my cart",
+                        "add {itemQty} of product {itemNum}",
+                        "add {itemNum} to my shopping cart",
+                        "add {itemNum} to my cart",
+                        "add {itemNum} to my cart {itemQty} times",
+                        "add {itemQty} of number {itemNum}",
+                        "add {itemQty} of number {itemNum} to my shopping cart",
+                        "add {itemQty} of number {itemNum} to my cart",
+                        "add {itemQty} {itemNum} to my shopping cart",
+                        "add {itemQty} {itemNum} to my cart",
+                        "add the {itemOrder} to my shopping cart",
+                        "add the {itemOrder} one to my cart",
+                        "add the {itemOrder} item to my shopping cart",
+                        "add the {itemOrder} item to my cart",
+                        "add the {itemOrder} one {itemQty} to my shopping cart",
+                        "add the {itemOrder} one {itemQty} to my cart ",
+                        "add {itemQty} of {itemOrder} to my shopping cart",
+                        "add {itemQty} of {itemNum} to my shopping cart",
+                        "add {itemQty} of {itemOrder} to my cart",
+                        "add {itemQty} of {itemNum} to my cart",
+                        "add {itemQty} of the {itemOrder} item to cart",
+                        "add the {itemOrder}",
+                        "add {itemOrder} item to cart",
+                        "add the {itemOrder} item to cart",
+                        "add {itemQty} of the {itemOrder} product",
+                        "add {itemQty} {itemOrder} product",
+                        "add the {itemOrder} item",
+                        "add {itemNum}",
+                        "add {itemQty} {itemOrder} item",
+                        "add {itemQty} of the {itemOrder} item",
+                        "add {itemQty} of {itemNum} to cart",
+                        "add {itemQty} of {itemNum}",
+                        "add product {itemNum} ",
+                        "add item {itemNum} ",
+                        "add product {itemNum} to cart",
+                        "add item {itemNum} to cart",
+                        "add {itemQty} product {itemNum} to cart",
+                        "add {itemQty} item {itemNum} to cart",
+                        "add {itemQty} product {itemNum}",
+                        "add {itemQty} item {itemNum}",
+                        "add quantity number {itemQty} of result number {itemNum}",
+                        "add quantity number {itemQty} of number {itemNum}",
+                        "add quantity number {itemQty} of item {itemNum}",
+                        "add quantity number {itemQty} of the {itemOrder}",
+                        "add quantity {itemQty} of item {itemNum}",
+                        "add quantity {itemQty} of number {itemNum}",
+                        "add quantity {itemQty} of the {itemOrder}",
+                        "add quantity number {itemQty} result number {itemNum}",
+                        "add {itemQty} quantity number of number {itemNum}",
+                        "add {itemQty} quantity number of the {itemOrder}",
+                        "add {itemQty} quantity of result number {itemNum}",
+                        "add {itemQty} quantity of number {itemNum}",
+                        "add {itemQty} quantity of item {itemNum}",
+                        "add number {itemNum} quantity {itemQty}",
+                        "add the {itemOrder} quantity {itemQty}",
+                        "add item {itemNum} quantity {itemQty}",
+                        "add product {itemNum} quantity {itemQty}",
+                        "add {itemQty} pack of the {itemOrder}",
+                        "add {itemQty} pack of number {itemNum}",
+                        "add {itemQty} pack of item {itemNum}",
+                        "put {itemNum} into shopping cart",
+                        "put {itemNum} into shopping list",
+                        "put {itemNum} into cart",
+                        "put {itemNum} in shopping cart",
+                        "put {itemNum} in shopping list",
+                        "put {itemNum} in cart",
+                        "put {itemNum} to shopping cart",
+                        "put {itemNum} to shopping list",
+                        "put {itemNum} to cart",
+                        "put {itemQty} of number {itemNum}",
+                        "put the {itemOrder} to shopping list",
+                        "put the {itemOrder} to cart",
+                        "put the {itemOrder} into shopping list",
+                        "put the {itemOrder} into cart",
+                        "put the {itemOrder} in shopping list",
+                        "put the {itemOrder} in cart",
+                        "put the {itemOrder} one {itemQty}",
+                        "put {itemQty} of {itemOrder}",
+                        "put {itemQty} of {itemNum}",
+                        "put {itemQty} of the {itemOrder}",
+                        "put {itemQty} {itemOrder}",
+                        "put {itemQty} product {itemNum}",
+                        "put {itemQty} item {itemNum} ",
+                        "put quantity number {itemQty} of result number {itemNum}",
+                        "put quantity {itemQty} of number {itemNum}",
+                        "put quantity number {itemQty} of the {itemOrder}",
+                        "put number {itemNum} quantity {itemQty}",
+                        "put the {itemOrder} quantity {itemQty}",
+                        "put item {itemNum} quantity {itemQty}",
+                        "put product {itemNum} quantity {itemQty}",
+                        "put quantity {itemQty} of the {itemOrder}",
+                        "put {itemQty} pack of the {itemOrder}",
+                        "put {itemQty} pack of number {itemNum}",
+                        "put {itemQty} pack of item {itemNum}",
+                        "{itemQty} {itemNum} to cart",
+                        "{itemQty} number {itemNum} to cart",
+                        "item {itemNum} add to cart",
+                        "product {itemNum} add to cart",
+                        "number {itemNum} add to cart",
+                        "the {itemOrder} one add to cart",
+                        "the {itemOrder} item add to cart",
+                        "the {itemOrder} product add to cart"
+                    ]
+                },
+                {
+                    "name": "GetCartLinkIntent",
+                    "slots": [
+                        {
+                            "name": "itemQty",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "itemNum",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "itemOrder",
+                            "type": "AMAZON.Ordinal"
+                        }
+                    ],
+                    "samples": [
+                        "email me my shopping cart",
+                        "email me my cart",
+                        "send me my shopping cart",
+                        "send me my cart",
+                        "cart link of {itemQty} of item {itemNum}",
+                        "cart link of {itemQty} item {itemNum}",
+                        "send cart link of {itemQty} {itemOrder}",
+                        "cart link of {itemQty} {itemOrder}",
+                        "cart link of {itemQty} {itemOrder} item",
+                        "cart link of {itemQty} of {itemOrder}",
+                        "cart link of {itemQty} of the {itemOrder}",
+                        "send cart link of {itemQty} {itemNum}",
+                        "cart link of {itemQty} of the {itemOrder} item",
+                        "cart link of {itemQty} of {itemNum}",
+                        "send cart link",
+                        "send the cart link",
+                        "send me a cart link",
+                        "send me the cart link",
+                        "cart link",
+                        "send me cart link"
+                    ]
+                },
+                {
+                    "name": "ClearCartIntent",
+                    "slots": [],
+                    "samples": [
+                        "destroy my shopping cart",
+                        "delete my shopping cart",
+                        "delete my list",
+                        "delete my cart",
+                        "delete my shopping list",
+                        "delete everything from my cart",
+                        "delete items from cart",
+                        "delete items from shopping cart",
+                        "delete items from shopping list",
+                        "clear my list",
+                        "clear my cart",
+                        "clear my shopping list",
+                        "clear my shopping cart",
+                        "delete all items in cart",
+                        "remove all in cart",
+                        "remove all items",
+                        "remove all items from my cart",
+                        "remove all items from my shopping cart",
+                        "remove my items from the cart",
+                        "remove my items from the shopping list",
+                        "remove items from shopping cart",
+                        "empty the cart",
+                        "empty my cart",
+                        "empty my shopping list",
+                        "clear cart"
+                    ]
+                },
+                {
+                    "name": "ReadCartItemIntent",
+                    "slots": [],
+                    "samples": [
+                        "what items are on my list",
+                        "what items are in my cart",
+                        "what is in my cart",
+                        "what is my list",
+                        "What is my cart",
+                        "tell me my shopping cart",
+                        "tell me my cart",
+                        "tell me what's in my shopping cart",
+                        "tell me what's in my cart",
+                        "read off my shopping cart",
+                        "what's in my shopping cart",
+                        "read off my cart",
+                        "What's in my cart",
+                        "cart content",
+                        "get cart content",
+                        "list items in the cart",
+                        "check my cart",
+                        "what is in my shopping cart",
+                        "read cart",
+                        "find the content of my cart",
+                        "find items in my cart"
+                    ]
+                },
+                {
+                    "name": "GetAvailabilityIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "{number}"
+                            ]
+                        },
+                        {
+                            "name": "ordinal",
+                            "type": "AMAZON.Ordinal",
+                            "samples": [
+                                "{ordinal}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "availability of item {number}",
+                        "availability of product {number}",
+                        "availability of number {number}",
+                        "availability of {ordinal} item",
+                        "availability of {ordinal} one",
+                        "what's the availability of item {number}",
+                        "what's the availability of product {number}",
+                        "what's the availability of number {number}",
+                        "what's the availability of {ordinal} item",
+                        "what's the availability of {ordinal} one",
+                        "get availability {number}",
+                        "availability {number}",
+                        "status {number}",
+                        "status of {ordinal} one",
+                        "status of number {number}",
+                        "status of {ordinal} product",
+                        "status of the {ordinal} one",
+                        "get availability of number {number}",
+                        "get availability of the {ordinal} one",
+                        "get availability of {number}",
+                        "stock on {number}",
+                        "stock of {number}",
+                        "stock on the {ordinal}",
+                        "stock of the {ordinal}",
+                        "is number {number} in stock",
+                        "is item {number} in stock",
+                        "is {number} in stock",
+                        "is the {ordinal} one in stock",
+                        "is the {ordinal} item in stock",
+                        "is the {ordinal} in stock",
+                        "is number {number} available",
+                        "is item {number} available",
+                        "is {number} available",
+                        "is the {ordinal} one available",
+                        "is the {ordinal} item available",
+                        "is the {ordinal} available",
+                        "what's the delivery of number {number}",
+                        "what's the delivery of item {number}",
+                        "what's the delivery of the {ordinal}",
+                        "do you have number {number}",
+                        "do you have item {number}",
+                        "do you have {number}",
+                        "do you have the {ordinal}",
+                        "do you have {ordinal}",
+                        "find the availability of {number}",
+                        "find the availability of {ordinal}"
+                    ]
+                },
+                {
+                    "name": "PriceOfCartIntent",
+                    "slots": [],
+                    "samples": [
+                        "price of my shopping list",
+                        "price of my list",
+                        "price of my shopping cart",
+                        "price of my cart",
+                        "price of shopping list",
+                        "price of list",
+                        "price of shopping cart",
+                        "price of cart",
+                        "How much is my shopping cart",
+                        "How much is my cart",
+                        "How much does my shopping cart cost",
+                        "How much does my cart cost",
+                        "What is the price of my shopping cart",
+                        "What is the price of my cart",
+                        "total cost of my cart",
+                        "total cost in my cart",
+                        "total cost of my shopping list",
+                        "total cost in my shopping list"
+                    ]
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "SearchItemIntent",
+                    "delegationStrategy": "ALWAYS",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.716863239243.1407434792130",
+                                "elicitation": "Elicit.Slot.706741044215.1046356222799"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ItemInfoIntent",
+                    "delegationStrategy": "SKILL_RESPONSE",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.725234507763.289920199370"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.838148273823.966620508096.217867296362",
+                                    "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ordinal",
+                            "type": "AMAZON.Ordinal",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.928085886603.1467921953153"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.838148273823.870018537452.305954380074",
+                                    "values": [
+                                        "sixth",
+                                        "third",
+                                        "fifth",
+                                        "fourth",
+                                        "first",
+                                        "second"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "PriceInfoIntent",
+                    "delegationStrategy": "SKILL_RESPONSE",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.110376878071.507347156041"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.991312580848.9722177884.408032724313",
+                                    "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ordinal",
+                            "type": "AMAZON.Ordinal",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.110376878071.851130175544"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.110376878071.851130175544.1371057155995",
+                                    "values": [
+                                        "sixth",
+                                        "third",
+                                        "fifth",
+                                        "fourth",
+                                        "first",
+                                        "second"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "GetAvailabilityIntent",
+                    "delegationStrategy": "SKILL_RESPONSE",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.356090046873.1365962841561"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.356090046873.1365962841561.380152025401",
+                                    "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ordinal",
+                            "type": "AMAZON.Ordinal",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.832051069209.1139853182777"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.832051069209.1139853182777.1208317233779",
+                                    "values": [
+                                        "sixth",
+                                        "third",
+                                        "fifth",
+                                        "fourth",
+                                        "first",
+                                        "second"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "AddCartItemIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "itemOrder",
+                            "type": "AMAZON.Ordinal",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "itemQty",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "itemNum",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "GetCartLinkIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "itemQty",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "itemNum",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "itemOrder",
+                            "type": "AMAZON.Ordinal",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.706741044215.1046356222799",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What would you like to search zoro dot com for?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What item can I help you find?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What were you thinking of searching for today?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What item would you like to search for?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1324342374474.806390724438.637310344880",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "{resultsType} is not a valid choice. Please choose either by text, email, or app."
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.716863239243.1407434792130",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "{item}, right?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Did you say {item}?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "I heard {item}. Is this correct?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.725234507763.289920199370",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What item would you like to hear about?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please choose a item number."
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the item number you want?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.928085886603.1467921953153",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What item would you like to hear about?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the item number you want?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please choose an item number."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.110376878071.851130175544",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What item would you like to hear about?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please choose an item number."
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the item number you want?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.110376878071.507347156041",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What item would you like to hear the price of?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please choose an item number to hear about its price."
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the item number's price do you want?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.110376878071.851130175544.1371057155995",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, that is not a valid item number. Please choose a number from the list or say more information to hear the list again."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.832051069209.1139853182777",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please choose an item number to hear about its availability."
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is the item number you would like to hear the availability of?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What item number would you like the availability of?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.832051069209.1139853182777.1208317233779",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, that is not a valid item number. Please choose a number from the list or say more information to hear the list again."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.356090046873.1365962841561",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is the item number you would like to hear the availability of?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please choose an item number to hear about its availability."
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What item availabilty would you like to hear about?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.991312580848.9722177884.408032724313",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, that is not a valid item number. Please choose a number from the list or say more information to hear the list again."
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.356090046873.1365962841561.380152025401",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, that is not a valid item number. Please choose a number from the list or say more information to hear the list again."
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.838148273823.966620508096.217867296362",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, that is not a valid item number. Please choose a number from the list or say more information to hear the list again."
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.838148273823.870018537452.305954380074",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, that is not a valid item number. Please choose a number from the list or say more information to hear the list again."
+                    }
+                ]
+            }
+        ]
+    }
+}

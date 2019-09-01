@@ -1,0 +1,11 @@
+# Packages
+node_modules/
+coverage/
+.nyc_output
+
+# Credentials
+credentials.json
+
+# Coverage output
+.nyc_output/
+coverage/

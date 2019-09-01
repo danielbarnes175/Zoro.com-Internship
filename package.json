@@ -1,0 +1,39 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test"
+    }
+  },
+  "name": "alexa-project-poc",
+  "version": "1.0.0",
+  "description": "A proof of concept for searching Zoro.com with Amazon Alexa",
+  "main": "index.js",
+  "dependencies": {
+    "ask-sdk": "^2.7.0",
+    "axios": "^0.19.0",
+    "common-tags": "^1.8.0",
+    "handlebars": "^4.1.2",
+    "lambda-deploy": "^2.1.0",
+    "nock": "^10.0.6",
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {
+    "alexa-skill-test-framework": "^1.2.4",
+    "axios-mock-adapter": "^1.17.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-zoro-style": "github:zorotools/javascript#master",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^2.7.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "proxyquire": "^2.1.1"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text ./node_modules/.bin/mocha test/*.spec.js --timeout 20000",
+    "lint": "node node_modules/eslint/bin/eslint.js .",
+    "lintfix": "node node_modules/eslint/bin/eslint.js --fix ."
+  },
+  "author": "",
+  "license": "ISC"
+}
