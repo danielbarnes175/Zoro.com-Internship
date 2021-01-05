@@ -10,7 +10,7 @@
   "main": "index.js",
   "dependencies": {
     "ask-sdk": "^2.7.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "common-tags": "^1.8.0",
     "handlebars": "^4.5.3",
     "lambda-deploy": "^2.1.0",
