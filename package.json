@@ -12,7 +12,7 @@
     "ask-sdk": "^2.7.0",
     "axios": "^0.21.1",
     "common-tags": "^1.8.0",
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "lambda-deploy": "^2.1.0",
     "nock": "^10.0.6",
     "nodemailer": "^6.3.0"
